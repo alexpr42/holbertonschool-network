@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Active Internet Connections (only servers)"
+ss -tulnps
+
+echo ""
+echo "Active UNIX domain sockets (only servers)"
+ss -xlnps
