@@ -1,8 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# display listening ports
+netstat -lp
 
-echo "Active Internet Connections (only servers)"
-ss -tulnps
-
-echo ""
-echo "Active UNIX domain sockets (only servers)"
-ss -xlnps
